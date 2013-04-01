@@ -22,7 +22,7 @@ body {
   blur every website for a split second every 30 seconds
 */
 body {
-  /*-webkit-animation: blur 30s infinite;*/
+  -webkit-animation: blur 30s infinite;
 }
 
 /*
@@ -69,7 +69,7 @@ p:nth-child(2) {
   Permanent cursor wait
 */ 
 html {
-  /*cursor:wait !important; */
+  cursor:wait !important;
 }
 
 /*
@@ -83,9 +83,11 @@ html {
   slowly grow text
 */
 p {
+  /*
   -webkit-animation: grow 120s ease-in;
   -moz-animation: grow 120s ease-in;
   animation: grow 120s ease-in;
+  */
 }
 
 /*
